@@ -18,7 +18,7 @@ async function handleSubmit(e) {
 
     // Asegúrate que estos nombres coincidan con tu plantilla en EmailJS
     const templateParams = {
-      to_name: "Equipo TalentFit", // Nombre del destinatario
+      to_name: "Equipo RH+", // Nombre del destinatario
       from_name: form.nombre.value.trim(),
       from_email: form.email.value.trim(),
       phone: form.fono.value.trim() || 'No proporcionado',
